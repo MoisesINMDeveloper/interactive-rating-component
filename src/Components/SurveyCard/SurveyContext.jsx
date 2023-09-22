@@ -13,7 +13,6 @@ function SurveyProvider({ children }) {
     setSelectedCalification(calification);
     setCalification(calification); //
     setShowThanks(true);
-    //Es posible hacer lo que se desee con selectedCalification aqui.
   };
   return (
     <SurveyContext.Provider

@@ -21,7 +21,7 @@ export default function SurveyCard() {
         <main className="bg-VeryDarkBlue  w-screen h-[100vh] grid place-content-center">
 
             {!showThanks ? (
-                <article className="px-6 py-5 shadow-2xl bg-gradient-to-b from-[#252d37] to-[#151a20] w-[22rem] h-[23rem] rounded-2xl">
+                <article className="px-6 py-5 shadow-2xl bg-gradient-to-b from-[#252d37] to-[#151a20] w-[21rem] h-[22rem] rounded-2xl">
                     <div className="bg-[#2b3644] rounded-full w-10 h-10 flex items-center justify-center mb-4">
                         <img className="w-3 h-3" src={IconStar} alt="icon start" />
                     </div>
