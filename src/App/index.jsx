@@ -1,7 +1,11 @@
+import React from "react"
+import { SurveyProvider } from "../Components/SurveyCard/SurveyContext"
+import SurveyCard from "../Components/SurveyCard"
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <SurveyProvider>
+      <SurveyCard />
+    </SurveyProvider>
   )
 }
